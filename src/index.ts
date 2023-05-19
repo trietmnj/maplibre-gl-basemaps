@@ -67,7 +67,7 @@ export default class BasemapsControl implements IControl {
           map.setLayoutProperty(activeElement.dataset.id, "visibility", "none");
           map.setLayoutProperty(id, "visibility", "visible");
         });
-        basemapContainer.classList.add("basemap-hidden");
+        basemapContainer.classList.add("bhidden");
         this._container.appendChild(basemapContainer);
 
         if (this._options.initialBasemap === id) {
